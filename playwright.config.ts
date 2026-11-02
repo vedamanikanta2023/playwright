@@ -40,7 +40,7 @@ use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    baseURL: '',
+    baseURL: 'https://demoqa.com',
     actionTimeout: 5000,  // max time for click, fill, check, etc.
     navigationTimeout: 40000, // max time for goto, reload, navigation
     trace: 'on-first-retry',  // collect trace only when retry happens

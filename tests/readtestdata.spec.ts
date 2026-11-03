@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import creds from "../test-Data/credentials.json";
+import creds from "../test-data/credentials.json";
 
 test("Read test data from JSON file", async ({
   page,

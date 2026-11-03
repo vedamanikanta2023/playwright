@@ -44,7 +44,7 @@ use: {
     actionTimeout: 5000,  // max time for click, fill, check, etc.
     navigationTimeout: 40000, // max time for goto, reload, navigation
     trace: 'on-first-retry',  // collect trace only when retry happens
-    headless:false,
+    headless: process.env.HEADED !== 'true',
     viewport :null,
     video:'on',     //'off', 'on' , 'retain-on-failure', 'on-first-retry'
     launchOptions:{
@@ -99,4 +99,3 @@ use: {
   // },
 });
  
-
